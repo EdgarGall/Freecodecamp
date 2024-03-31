@@ -57,10 +57,6 @@ def atras(numero_imagen):
     global boton_derecha
     global boton_izquierda
 
-    
-    #borrar la imagen
-    mi_imagen.grid_forget()
-    
     #Crear la nueva imagen usando label y su nueva posicion
     mi_imagen= Label(image=lista_imagenes[numero_imagen-1])
     mi_imagen.grid(row=0, column=0, columnspan=3)
